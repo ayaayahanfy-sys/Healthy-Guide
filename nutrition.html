@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Guide | التغذية</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .food-types {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .type-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .type-card h3 {
+            color: #27ae60;
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        th {
+            background: #27ae60;
+            color: white;
+        }
+
+        tr:hover {
+            background: rgba(39, 174, 96, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Healthy Guide</div>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="nutrition.html">التغذية</a>
+            <a href="workout.html">التمارين</a>
+            <a href="tips.html">نصائح</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="glass-panel">
+            <h2>🍎 أنواع العناصر الغذائية</h2>
+            <div class="food-types">
+                <div class="type-card">
+                    <h3>البروتينات</h3>
+                    <p>مسؤولة عن بناء العضلات وترميم الأنسجة. (مثل: الدجاج، البيض، البقوليات).</p>
+                </div>
+                <div class="type-card">
+                    <h3>الكربوهيدرات</h3>
+                    <p>مصدر الطاقة الرئيسي للجسم. (مثل: الشوفان، الأرز البني، البطاطس).</p>
+                </div>
+                <div class="type-card">
+                    <h3>الدهون الصحية</h3>
+                    <p>مهمة لصحة الدماغ والهرمونات. (مثل: زيت الزيتون، الأفوكادو، المكسرات).</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="glass-panel">
+            <h2>📅 جدول وجبات يومي مقترح</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>الوجبة</th>
+                        <th>المكونات</th>
+                        <th>السعرات التقريبية</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>الإفطار</td>
+                        <td>3 بيضات مسلوقة + نصف رغيف بلدي + خضار</td>
+                        <td>350 سعرة</td>
+                    </tr>
+                    <tr>
+                        <td>سناك 1</td>
+                        <td>ثمرة فاكهة (تفاح أو موز)</td>
+                        <td>90 سعرة</td>
+                    </tr>
+                    <tr>
+                        <td>الغداء</td>
+                        <td>150ج صدر دجاج + 5 ملاعق أرز + سلطة</td>
+                        <td>450 سعرة</td>
+                    </tr>
+                    <tr>
+                        <td>سناك 2</td>
+                        <td>حفنة مكسرات نيئة (لوز أو جوز)</td>
+                        <td>150 سعرة</td>
+                    </tr>
+                    <tr>
+                        <td>العشاء</td>
+                        <td>علبة زبادي يوناني + ملعقة بذور كتان</td>
+                        <td>200 سعرة</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="margin-top: 15px; font-size: 14px; color: #ddd;">* السعرات قد تختلف حسب طريقة الطبخ والكميات
+                الدقيقة.</p>
+        </section>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/food.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    min-height: 100vh;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #27ae60;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.container {
+    padding: 40px 10%;
+}
+
+.glass-panel {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #27ae60;
+    margin-bottom: 15px;
+    border-right: 4px solid #27ae60;
+    padding-right: 10px;
+}
+
+input,
+button {
+    padding: 12px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    background: #27ae60;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
